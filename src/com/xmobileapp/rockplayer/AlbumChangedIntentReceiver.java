@@ -30,10 +30,10 @@ import android.os.RemoteException;
 import android.provider.MediaStore;
 import android.util.Log;
 
-
 public class AlbumChangedIntentReceiver	extends BroadcastReceiver{
 	@Override
 	public void onReceive(Context context, Intent intent) {
+		// ≤‚ ‘
 		Log.i("ALBUMINTENT", "albumChanged");
 		RockPlayer filex =((RockPlayer) context);
 		try {
